@@ -14,7 +14,7 @@ namespace InClassCodeFirst
 		public string TeamName { get; set; }
 
 		public string Location { get; set; }
-
+		public string HomeGround { get; set; }
 		public virtual List<Player> Players { get; set; }
 	}//end of class
 
